@@ -1,3 +1,18 @@
 class Fish
-  # code goes here
+  def initialize(name)
+    @name = "Nemo"
+    @mood = "nervous"
+  end
+  
+  def name
+    @name
+  end
+  
+  def mood 
+    @mood
+  end
+  
+  def mood=(mood)
+    @mood = mood
+  end 
 end
